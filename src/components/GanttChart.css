@@ -1,0 +1,32 @@
+.gantt_task_orange .gantt_task_content {
+    background-color: orange;
+}
+
+.gantt_task_green .gantt_task_content {
+    background-color: green;
+}
+
+.gantt_task_red .gantt_task_content {
+    background-color: red;
+}
+
+.gantt_task_gray .gantt_task_content {
+    background-color: gray;
+}
+
+h1{
+    color: firebrick;
+}
+
+
+button{
+    border-radius: 3px;
+    margin-left: 10px;
+    background-color: greenyellow;
+    color: black;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+}

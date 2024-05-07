@@ -1,0 +1,64 @@
+.custom-dropdown {
+    position: relative;
+}
+
+.selected-option {
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.options-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+.color-picker {
+    display: flex;
+    align-items: center;
+}
+
+.paint-icon {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.color-panel {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.color-option {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 3px;
+    cursor: pointer;
+}
